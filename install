@@ -1,0 +1,3 @@
+# git
+git config --global core.pager ''
+git config --global core.editor vim

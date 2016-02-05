@@ -39,6 +39,8 @@ source /usr/local/bin/virtualenvwrapper.sh
 
 alias gs="git status"
 alias gl="git log"
+alias gb="git branch"
+alias lc="ls -C"
 
 #export LC_ALL=no_NO.UTF-8
 #export LANG=no_NO.UTF-8
