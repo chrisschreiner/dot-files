@@ -13,7 +13,7 @@ alias python=python3
 alias pip=pip3.5
 # User configuration
 
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin:.:/Users/chris/bin:/Users/chris/Documents/sourcecode/go/bin:/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin"
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin:.:/Users/chris/bin:/Users/chris/Sources/go/bin:/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -38,7 +38,7 @@ export VIRTUALENVWRAPPER_PYTHON="/usr/local/bin/python3"
 source /usr/local/bin/virtualenvwrapper.sh
 
 alias gs="git status"
-alias gl="git log"
+alias gl="git lg"
 alias gb="git branch"
 alias lc="ls -C"
 
@@ -46,3 +46,5 @@ alias lc="ls -C"
 #export LANG=no_NO.UTF-8
 
 source /usr/local/bin/activate.sh
+
+export GOPATH="/Users/chris/Sources/go"
