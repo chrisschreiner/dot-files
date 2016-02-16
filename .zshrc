@@ -1,9 +1,15 @@
+NPM_PACKAGES="${HOME}/.npm-packages"
+PATH="$NPM_PACKAGES/bin:$PATH"
+unset MANPATH #
+export MANPATH="$NPM_PACKAGES/share/man:$(manpath)"
+
+export VSCODE_TSJS=1
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/chris/.oh-my-zsh
 ZSH_THEME="sorin"
 
 plugins=(git)
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin:.:/Users/chris/bin:/Users/chris/Sources/go/bin:/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin"
+export PATH="$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/usr/local/go/bin:.:/Users/chris/bin:/Users/chris/Sources/go/bin:/Library/Developer/Toolchains/swift-latest.xctoolchain/usr/bin"
 . $ZSH/oh-my-zsh.sh
 
 export LANG=en_US.UTF-8
