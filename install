@@ -1,4 +1,4 @@
 # git
 git config --global core.pager ''
 git config --global core.editor vim
-git config --global alias.lg "log --color --graph --abbrev-commit --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset'
+git config --global alias.lg "log --color --graph --abbrev-commit --pretty=format:'%Cred%h%Creset - %Cgreen(%cr) %C(yellow)%d%Creset %s%Creset'" 
